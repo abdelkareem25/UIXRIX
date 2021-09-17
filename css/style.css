@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+header{
+    background-image: url(../imgs/template1.png);
+    background-size: cover;
+    background-position: center;
+  
+
+color: none;
+height: 120vh;
+}
+nav{
+background-color: none;
+color: aliceblue;
+}
+.list li a:hover{
+    color: orange;
+    background-color: #fff;
+}
+.list li a{
+    border-radius: 40px;
+    margin-top: 20px;
+font-size: 20px;
+    color: aliceblue;
+}
+.zr:hover{
+    background-color: orange;
+    color: white;
+}
+
+.zr{
+    background-color: #fff;
+color: rgb(43, 43, 200);
+border: none;
+border-radius: 40px;
+font-size: 40px;
+}
+.tel1{
+    box-shadow: 0px 0px 20px white;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top:60px ;
+    min-height: 60vh;
+    min-width: 40vh;
+}
+.dwnld i:hover{
+    color: orange;
+}
+.abtcrd i{
+    font-size: 50px;
+    border-radius: 30px;
+color: rgb(74, 74, 197);
+background-color:rgb(226, 226, 226);
+margin-top: 30px;
+    padding: 40px;
+}
+.abtcrd{
+    box-shadow: 0px 0px 20px white,0px 0px 10px black;
+}
+.card-body h3{
+    text-align: center;
+}
+
+/* features */
+.left-work{
+    margin-top: 60px;
+    text-align: right;
+    padding-right: 3%;
+    }
+    .left-work img{
+    width: 50%;
+    }
+
+    .features{
+        background-image: url(../imgs/Shape.png);
+    background-size: cover;
+    background-position: center;
+    height: 160vh;
+    padding-bottom: 100px;
+    }
+    
+    .right-work{
+        margin-top: 100px;
+    text-align: left;
+    padding-left: 3%;
+    padding-top: 70px;
+    }
+    .right-work p{
+    margin-left: 10px;
+    }
+    .step{
+    display: flex;
+    margin-bottom: 20px;
+    }
+    .dicon i{
+        position: relative;
+        font-size: 40px;
+        color: rgb(94, 94, 218);
+        padding:10px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px white;
+        border-radius: 50%;
+    }
+    .dicon{
+        margin-right: 50px;
+        position: relative;
+    margin-left: 20px;
+    min-width: 10px; 
+    min-height: 10px;
+    text-align: center;
+    }
+    
+   
+    h2{
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+        text-align: center;
+        }
+        hr{
+            background-color:rgb(21, 81, 246) ;
+       color: rgb(21, 81, 246);
+       width: 60px;
+        height: 100px;
+        border: solid 3px rgb(0, 66, 246);
+        margin: 20px auto;
+        }
+        /* appimg */
+        .appimg ul{
+
+            overflow: hidden;
+        }
+        .appimg div{
+            overflow: hidden;
+        }
+
+        /* pricing */
+        .pricing{
+            min-height: 100vh;
+            margin-top: 100px;
+        }
+        .pricing button{
+            border-radius: 40px;
+        }
+        .pricing .card{
+            border: 2px solid rgb(61, 92, 235);
+            border-radius: 20px;
+            box-shadow:  0 0 5px white,0 0 3px black;
+            }
+        .crds{
+            margin-top: 100px;
+        }
+        .fa-check{
+            color: rgb(0, 162, 255);
+        }
+        .fa-times{
+            color: red;
+        }
+        .card-body{
+            margin-top: 50px;
+            padding-bottom: 50px;
+        }
+        .card-body button{
+            font-size: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        .card-body span{
+            font-size: 50px;
+            
+            color: rgb(0, 162, 255);
+
+        }
+        /* clint */
+        .clint-card img{
+            margin-right: auto;
+            margin-left: auto;
+            width: 100px;
+            margin-top: -50px;
+            
+        }
+        .clint-card .card p {
+            
+            color: white;
+            
+        }
+        .clint-card .card p i{
+            color: orange;
+        }
